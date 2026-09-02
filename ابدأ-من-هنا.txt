@@ -1,0 +1,29 @@
+مشروع UOP MENA-ME النهائي
+
+1. أنشئ Repository جديد وفارغ في GitHub.
+2. يفضل أن تسميه:
+   testing
+
+3. فك ضغط هذا الملف.
+4. ارفع جميع الملفات والمجلدات الموجودة داخله إلى جذر Repository الجديد.
+   لا ترفع ملف ZIP نفسه.
+
+يجب أن يظهر في الصفحة الرئيسية:
+.github
+app
+build.gradle.kts
+gradle.properties
+settings.gradle.kts
+README.md
+
+5. تأكد أن الفرع اسمه main.
+6. بعد Commit افتح Actions.
+7. اختر testing.
+8. بعد النجاح افتح Artifacts.
+9. نزّل testing.
+10. فك الضغط وستجد:
+    testing.apk
+
+ملاحظة:
+الناتج من GitHub Actions هو Debug-signed APK مناسب للتثبيت المباشر والاختبار/الاستخدام الداخلي.
+للتوزيع الرسمي الواسع يجب إنشاء Release موقّع بمفتاح خاص.
